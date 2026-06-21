@@ -14,7 +14,7 @@ export const AppProvider = ({ children })=>{
 
     const [token, setToken] = useState(null)
     const [user, setUser] = useState(null)
-    const [isOwner, setIsOwner] = useState(false)
+    const [isOwner, setIsOwner] = useState(true)
     const [showLogin, setShowLogin] = useState(false)
     const [pickupDate, setPickupDate] = useState('')
     const [returnDate, setReturnDate] = useState('')
